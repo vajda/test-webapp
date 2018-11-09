@@ -1,7 +1,6 @@
 {
   "root": {
     "vals": {
-      "port": 80,
       "prefixA": "production A prefix",
       "sufixA": "production A sufix"
     }

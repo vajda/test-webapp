@@ -1,6 +1,5 @@
 const express = require('express');
 const cors = require('cors');
-const config = require('config');
 
 const app = express();
 
@@ -18,8 +17,8 @@ app.use(express.urlencoded({ extended: true }));
 // Adding routes
 app.use('/api', require('./routers/default'));
 
-const vals = config.get("root.vals");
+var port = process.env.PORT || 3000;
 
-app.listen(vals.port, () => {
-  console.log(`Server is listening on port ${vals.port}`);
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
 });
