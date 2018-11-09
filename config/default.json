@@ -1,6 +1,7 @@
 {
   "root": {
     "vals": {
+      "port": 3000,
       "prefixA": "default A prefix",
       "sufixA": "default A sufix",
       "prefixB": "default B prefix",
