@@ -1,0 +1,8 @@
+{
+  "root": {
+    "vals": {
+      "prefixA": "production A prefix",
+      "sufixA": "production A sufix"
+    }
+  }
+}
