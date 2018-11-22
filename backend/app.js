@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:4200',
+  origin: 'https://smartcat-test-frontend.azurewebsites.net',
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 

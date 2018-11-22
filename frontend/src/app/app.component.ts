@@ -25,7 +25,6 @@ export class AppComponent implements OnInit {
   }
 
   getDrugFamilies(): Observable<any> {
-    console.log("get drug families called.");
-    return this.http.get<any>('http://localhost:3000/api/test');
+    return this.http.get<any>('https://smartcat-test-backend.azurewebsites.net/api/test');
   }
 }
